@@ -1,0 +1,58 @@
+=== Paired T-Test Results ===
+
+accuracy:
+  MLB mean: 0.4602 ± 0.0161
+  CONCAT mean: 0.4547 ± 0.0199
+  p-value: 0.465230
+  Cohen's d: 0.2411
+
+macro_f1:
+  MLB mean: 0.4503 ± 0.0169
+  CONCAT mean: 0.4404 ± 0.0157
+  p-value: 0.198470
+  Cohen's d: 0.4390
+
+weighted_f1:
+  MLB mean: 0.4523 ± 0.0189
+  CONCAT mean: 0.4411 ± 0.0195
+  p-value: 0.177633
+  Cohen's d: 0.4625
+
+
+--- Per-class Recall ---
+ang:
+  MLB mean: 0.4482 ± 0.0677
+  CONCAT mean: 0.4482 ± 0.0719
+  p-value: 1.000000
+  Cohen's d: -0.0000
+
+exc:
+  MLB mean: 0.5686 ± 0.0762
+  CONCAT mean: 0.6462 ± 0.0807
+  p-value: 0.025232
+  Cohen's d: -0.8473
+
+fru:
+  MLB mean: 0.3677 ± 0.0683
+  CONCAT mean: 0.2885 ± 0.0637
+  p-value: 0.009779
+  Cohen's d: 1.0321
+
+hap:
+  MLB mean: 0.5231 ± 0.1214
+  CONCAT mean: 0.4671 ± 0.1246
+  p-value: 0.283912
+  Cohen's d: 0.3603
+
+neu:
+  MLB mean: 0.2766 ± 0.0596
+  CONCAT mean: 0.2854 ± 0.0580
+  p-value: 0.654786
+  Cohen's d: -0.1462
+
+sad:
+  MLB mean: 0.7310 ± 0.0594
+  CONCAT mean: 0.7420 ± 0.0709
+  p-value: 0.663358
+  Cohen's d: -0.1423
+

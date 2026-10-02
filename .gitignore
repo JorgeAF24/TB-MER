@@ -1,0 +1,65 @@
+# ============================================================
+# TB-MER
+# Files excluded from version control
+# ============================================================
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw datasets
+/data/
+/datasets/
+/MELD/
+/IEMOCAP/
+
+# Extracted video frames
+/frames/
+*_frames/
+
+# Cached CLIP features
+/features/
+*_features/
+*.pt
+*.pth
+
+# Model checkpoints
+/checkpoints/
+/models/
+*.ckpt
+
+# Training logs and temporary outputs
+/logs/
+wandb/
+runs/
+*.log
+extract_log.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~*
+
+# Local environment/configuration files
+.env
+.env.*

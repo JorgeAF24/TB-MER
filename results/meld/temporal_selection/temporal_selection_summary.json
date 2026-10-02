@@ -1,0 +1,77 @@
+{
+    "mean_pooling_4hz": {
+        "n_seeds_per_fusion": 10,
+        "concat": {
+            "macro_f1_mean": 0.39831333479737857,
+            "weighted_f1_mean": 0.5443800974445474
+        },
+        "mlb": {
+            "macro_f1_mean": 0.40087046976432816,
+            "weighted_f1_mean": 0.546524626132784
+        },
+        "fusion_agnostic_average": {
+            "macro_f1": 0.3995919022808534,
+            "weighted_f1": 0.5454523617886657
+        }
+    },
+    "conformer_2hz": {
+        "n_seeds_per_fusion": 10,
+        "concat": {
+            "macro_f1_mean": 0.3884855044064585,
+            "weighted_f1_mean": 0.5270935134844412
+        },
+        "mlb": {
+            "macro_f1_mean": 0.38817040513011536,
+            "weighted_f1_mean": 0.5285624171210856
+        },
+        "fusion_agnostic_average": {
+            "macro_f1": 0.38832795476828696,
+            "weighted_f1": 0.5278279653027634
+        }
+    },
+    "conformer_4hz": {
+        "n_seeds_per_fusion": 10,
+        "concat": {
+            "macro_f1_mean": 0.39021604412793376,
+            "weighted_f1_mean": 0.5285977123962985
+        },
+        "mlb": {
+            "macro_f1_mean": 0.388379070491631,
+            "weighted_f1_mean": 0.5310316933779005
+        },
+        "fusion_agnostic_average": {
+            "macro_f1": 0.3892975573097824,
+            "weighted_f1": 0.5298147028870994
+        }
+    },
+    "conformer_6hz": {
+        "n_seeds_per_fusion": 10,
+        "concat": {
+            "macro_f1_mean": 0.3887710989284654,
+            "weighted_f1_mean": 0.5343194658721756
+        },
+        "mlb": {
+            "macro_f1_mean": 0.38592429164384523,
+            "weighted_f1_mean": 0.5285381320819049
+        },
+        "fusion_agnostic_average": {
+            "macro_f1": 0.3873476952861553,
+            "weighted_f1": 0.5314287989770403
+        }
+    },
+    "conformer_8hz": {
+        "n_seeds_per_fusion": 10,
+        "concat": {
+            "macro_f1_mean": 0.38787160674569654,
+            "weighted_f1_mean": 0.5274011291523255
+        },
+        "mlb": {
+            "macro_f1_mean": 0.3866918510366429,
+            "weighted_f1_mean": 0.5291649621798579
+        },
+        "fusion_agnostic_average": {
+            "macro_f1": 0.38728172889116974,
+            "weighted_f1": 0.5282830456660916
+        }
+    }
+}

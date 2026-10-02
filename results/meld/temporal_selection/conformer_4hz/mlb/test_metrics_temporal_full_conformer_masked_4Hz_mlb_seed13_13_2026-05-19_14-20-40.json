@@ -1,0 +1,108 @@
+{
+    "seed": 13,
+    "pipeline": "Cached_Features",
+    "device": "NVIDIA GeForce RTX 4090 D",
+    "evaluation_metric": "weighted F1-score",
+    "model_path": "results\\temporal_full_conformer_masked_4Hz_mlb_seed13\\train\\model_seed_temporal_full_conformer_masked_4Hz_mlb_seed13_13_2026-05-19_14-15-24.pt",
+    "timestamp": "2026-05-19_14-20-40",
+    "experiment": {
+        "name": "temporal_full_conformer_masked_4Hz_mlb_seed13",
+        "backbone": "CLIP ViT-L/14",
+        "fusion": "mlb",
+        "temporal_handling": "full_conformer",
+        "temporal_encoder": "full_conformer",
+        "input_format": "[B,T,768] -> projection -> MLB -> conformer -> pooling -> [B,128]"
+    },
+    "metrics": {
+        "accuracy": 0.535632183908046,
+        "macro_precision": 0.39900785496753993,
+        "macro_recall": 0.4476899385082434,
+        "macro_f1": 0.4031059121271317,
+        "weighted_precision": 0.6115798954052879,
+        "weighted_recall": 0.535632183908046,
+        "weighted_f1": 0.5612318079775179
+    },
+    "recall_per_class": [
+        0.3507246376811594,
+        0.35294117647058826,
+        0.28,
+        0.5671641791044776,
+        0.6058917197452229,
+        0.33653846153846156,
+        0.6405693950177936
+    ],
+    "confusion_matrix": [
+        [
+            121,
+            36,
+            25,
+            41,
+            37,
+            19,
+            66
+        ],
+        [
+            14,
+            24,
+            1,
+            2,
+            11,
+            7,
+            9
+        ],
+        [
+            10,
+            3,
+            14,
+            3,
+            7,
+            7,
+            6
+        ],
+        [
+            38,
+            12,
+            16,
+            228,
+            58,
+            16,
+            34
+        ],
+        [
+            52,
+            52,
+            107,
+            87,
+            761,
+            79,
+            118
+        ],
+        [
+            28,
+            13,
+            26,
+            14,
+            39,
+            70,
+            18
+        ],
+        [
+            23,
+            12,
+            9,
+            31,
+            24,
+            2,
+            180
+        ]
+    ],
+    "labels": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}
